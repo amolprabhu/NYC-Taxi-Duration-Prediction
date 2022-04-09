@@ -1,7 +1,8 @@
 # NYC-Taxi-Duration-Prediction
 
-# New York City Taxi Trip Time Prediction
+# New York City Taxi Trip Time Prediction (AlmaBetter Verified Project)
 
+## Summary 
 This project aims to predict New York city taxi trip times.
 
 The dataset consists of 1458644 rows and 11 columns, containing features such as trip longitude and latitude values, day, month, year of the trip, etc.
@@ -29,3 +30,8 @@ Random Forest perfomed best after hyperparameter tuning.
 Root Mean Squared Error (RMSE) is chosen as the metric. The metric showed an RMSE of 221 seconds in predictions of trip time.
 
 Improvement of 68% or reduction in deviation of time prediction by 8 minutes compared to the prediction deviations from the mean.
+
+## References
+1. Haversine Distance - https://www.igismap.com/haversine-formula-calculate-geographic-distance-earth/
+2. NYC boundaries - https://gist.github.com/jakebathman/719e8416191ba14bb6e700fc2d5fccc5
+3. Random Forest Regressor - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
